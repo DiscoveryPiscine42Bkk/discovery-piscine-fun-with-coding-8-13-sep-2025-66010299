@@ -1,8 +1,11 @@
 #!/bin/bash
 if [ $# -eq 0 ]; then
-  echo "No arguments supplied"
+    echo "No arguments supplied"
 else
-  echo "$1"
-  echo "$2"
-  echo "$3"
+    for i in "$1" "$2" "$3"
+    do
+        if [ -n "$i" ]; then
+            echo "$i"
+        fi
+    done
 fi
