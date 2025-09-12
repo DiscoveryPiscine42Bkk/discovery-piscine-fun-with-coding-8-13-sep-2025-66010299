@@ -35,7 +35,7 @@ body {
   text-decoration: underline;
 }
 
-.hero {
+.profile {
   background: linear-gradient(135deg, #925846, #9c5d41);
   text-align: center;
   padding: 120px 20px 80px;
@@ -43,11 +43,11 @@ body {
   color: white;
 }
 
-.hero h1 {
+.profile h1 {
   font-size: 3rem;
 }
 
-.hero p {
+.profile p {
   font-size: 1.2rem;
   margin-top: 10px;
 }

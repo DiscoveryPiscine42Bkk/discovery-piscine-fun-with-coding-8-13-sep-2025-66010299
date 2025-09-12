@@ -35,7 +35,7 @@ body {
   text-decoration: underline;
 }
 
-.name {
+.profile {
   background: linear-gradient(135deg, #4d1a29 0%, #c23861 100%);
   text-align: center;
   padding: 120px 20px 80px;
@@ -43,11 +43,11 @@ body {
   color: white;
 }
 
-.name h1 {
+.profile h1 {
   font-size: 3rem;
 }
 
-.name p {
+.profile p {
   font-size: 1.2rem;
   margin-top: 10px;
 }
